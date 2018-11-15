@@ -10,14 +10,14 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.11/ref/settings/
 """
 
-import os,sys
+import os, sys
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # 将apps目录添加到系统的搜索路径之下,以便在命令行运行项目的时候也可以找到该目录.
 # 方到0的位置是因为,首先找到该目录.
 sys.path.insert(0, os.path.join(BASE_DIR, 'apps'))
-
+sys.path.insert(0, os.path.join(BASE_DIR, 'extra_apps'))
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
@@ -44,6 +44,9 @@ INSTALLED_APPS = [
     'organization',
     'courses',
     'operation',
+    'xadmin',
+    'DjangoUeditor',
+    'crispy_forms',
 ]
 
 # 此处重载是为了使我们的UserProfile生效
