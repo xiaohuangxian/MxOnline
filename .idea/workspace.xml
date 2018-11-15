@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b17043f9-886d-4b3c-8e39-f1afb4cc5816" name="Default" comment="四个app和model的设计实现">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/d3f501a6-b42e-4b90-875b-cbfa4a12ef05.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/users/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/users/admin.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/users/apps.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/users/migrations/0001_initial.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/users/migrations/0002_banner_emailverifyrecord.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/users/migrations/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/users/models.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/users/tests.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/users/views.py" />
+    <list default="true" id="b17043f9-886d-4b3c-8e39-f1afb4cc5816" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -148,7 +138,6 @@
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="FORCE_PUSH_ALLOWED" value="false" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -215,7 +204,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
@@ -290,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542266019187</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="四个app和model的设计实现">
+      <created>1542266839753</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1542266839753</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
