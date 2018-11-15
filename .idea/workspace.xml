@@ -2,40 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b17043f9-886d-4b3c-8e39-f1afb4cc5816" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Python.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/courses/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/courses/admin.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/courses/apps.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/courses/migrations/0001_initial.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/courses/migrations/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/courses/models.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/courses/tests.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/courses/views.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/operation/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/operation/admin.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/operation/apps.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/operation/migrations/0001_initial.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/operation/migrations/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/operation/models.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/operation/tests.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/operation/views.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/organization/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/organization/admin.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/organization/apps.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/organization/migrations/0001_initial.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/organization/migrations/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/organization/models.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/organization/tests.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/organization/views.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/MxOnline.iml" afterPath="$PROJECT_DIR$/.idea/MxOnline.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MxOnline/__init__.py" afterPath="$PROJECT_DIR$/MxOnline/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/MxOnline/settings.py" afterPath="$PROJECT_DIR$/MxOnline/settings.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -299,17 +266,24 @@
       <option name="presentableId" value="Default" />
       <updated>1542193852566</updated>
     </task>
+    <task id="LOCAL-00001" summary="四个app和model的设计实现">
+      <created>1542265944184</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1542265944184</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290993" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290993" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290993" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35515022" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -356,6 +330,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="四个app和model的设计实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="四个app和model的设计实现" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
