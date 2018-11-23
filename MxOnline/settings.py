@@ -47,11 +47,17 @@ INSTALLED_APPS = [
     'xadmin',
     'DjangoUeditor',
     'crispy_forms',
+    'captcha',
 ]
 
 # 此处重载是为了使我们的UserProfile生效
 AUTH_USER_MODEL = "users.UserProfile"
 
+# 设置邮箱和用户名均可登录
+AUTHENTICATION_BACKENDS = (
+    'users.views.CustomBackend',
+
+)
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -96,6 +102,17 @@ DATABASES = {
     }
 }
 
+# 邮箱配置
+# 发送邮件的setting设置
+
+# 发送Email的服务器,用来在用户注册激活邮箱的时候,给用户发送激活链接.
+EMAIL_HOST = "smtp.qq.com"
+EMAIL_PORT = 25  # 端口号
+EMAIL_HOST_USER = "projectsedu@sina.com"  # 用户名
+EMAIL_HOST_PASSWORD = "admin123"
+EMAIL_USE_TLS = False
+EMAIL_FROM = "projectsedu@sina.com"
+
 # Password validation
 # https://docs.djangoproject.com/en/1.11/ref/settings/#auth-password-validators
 
@@ -131,4 +148,10 @@ USE_TZ = False
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
+# 静态资源的别名
 STATIC_URL = '/static/'
+
+# 静态资源存放的实际的目录
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static'),
+]
